@@ -1,0 +1,55 @@
+<!doctype html>
+<html ng-app='gemStore' >
+  <head>
+  </head>
+  <body>
+    <h1>Abecedario en Ingles</h1>
+
+    <div ng-controller="StoreController as controller">
+        <ul>
+            <li ng-repeat="abc in controller.alphabet">
+                {{abc.name}}
+            </li>
+        </ul>
+    </div>
+
+    <script src="assets/plugins/angular/angular.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        var app = angular.module('gemStore', []);
+        app.controller('StoreController', function(){
+            this.alphabet = abc;
+        });
+
+        var abc = [{
+                name : 'a',
+                image: ['thumbnail.jpg','small.jpg','large.jpg'],
+                sound: 'http:/translate.google.com/a'
+            },
+            {
+                name : 'b',
+                image: ['thumbnail.jpg','small.jpg','large.jpg'],
+                sound: 'http:/translate.google.com/b'
+            },
+            {
+                name : 'c',
+                image: ['thumbnail.jpg','small.jpg','large.jpg'],
+                sound: 'http:/translate.google.com/c'
+            },
+            {
+                name : 'd',
+                image: ['thumbnail.jpg','small.jpg','large.jpg'],
+                sound: 'http:/translate.google.com/d'
+            },
+            {
+                name : 'e',
+                image: ['thumbnail.jpg','small.jpg','large.jpg'],
+                sound: 'http:/translate.google.com/e'
+            },
+        ];
+
+    })();
+
+    </script>
+  </body>
+</html>
