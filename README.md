@@ -3,14 +3,14 @@
 
 ## Install **Bower**
 
-for install all componets js and css your must install this packages with 
+For install all componets js and css your must install this packages with 
 `bower`
 	
 	bower install
 
 
 For install other packages with bower and add in `bower.json`
-execute that exmaple command: `--save`
+execute that example command: `--save`
 
 	bower install --save jquery bootstrap
 
