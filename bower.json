@@ -15,7 +15,9 @@
     "src/assets/plugins"
   ],
   "dependencies": {
-    "angular": "1.3.16"
+    "angular": "~1.4.1",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
   },
   "description": "angularjs learning",
   "main": "src",

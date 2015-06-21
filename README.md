@@ -9,6 +9,12 @@ for install all componets js and css your must install this packages with
 	bower install
 
 
+For install other packages with bower and add in `bower.json`
+execute that exmaple command: `--save`
+
+	bower install --save jquery bootstrap
+
+
 ## util resource
 
 resource for learning angular:
