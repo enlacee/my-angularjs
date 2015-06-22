@@ -1,2 +1,4 @@
 ## no follow
 src/assets/plugins
+## no followe IDES files
+/nbproject
