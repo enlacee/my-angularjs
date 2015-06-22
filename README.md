@@ -7,12 +7,14 @@ For install all componets js and css your must install this packages with
 `bower`
 	
 	bower install
+  bower list
 
 
 For install other packages with bower and add in `bower.json`
 execute that example command: `--save`
 
 	bower install --save jquery bootstrap
+  bower install angular-route --save
 
 
 ## util resource
