@@ -1,0 +1,1 @@
+<script src="assets/plugins/angular/angular.js"></script>

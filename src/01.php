@@ -2,7 +2,7 @@
 <html ng-app>
   <head>
     <meta charset="utf-8">
-    <script src="../assets/plugins/angular/angular.js"></script>
+    <?php require_once 'library.php' ?>
   </head>
   <body>
     <div>

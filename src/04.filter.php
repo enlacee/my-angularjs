@@ -2,7 +2,7 @@
 <html ng-app="agenda">
   <head>
     <meta charset="utf-8">
-    <script src="../assets/plugins/angular/angular.js"></script>
+    <?php require_once 'library.php' ?>
   </head>
   <body>
     <div ng-controller="controlador1">    
